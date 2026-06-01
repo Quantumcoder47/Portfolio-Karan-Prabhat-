@@ -5,8 +5,15 @@ import { FaRegCopyright } from "react-icons/fa6";
 import { socialLink } from "@/db";
 
 const Footer = () => {
+
+  const data= [
+              { label: "Home", href: "/" },
+              { label: "Projects", href: "/my-works" },
+              { label: "About Me", href: "/about-me" },
+              { label: "CONTACT", href: "/#contact" },
+            ];
   return (
-    <footer className="w-full py-[2rem] border-t border-gray px-[1rem] sm:px-0">
+    <footer  className="w-full py-[2rem] border-t border-gray px-[1rem] sm:px-0  mt-10">
       <div className="container flex flex-col gap-[1.5rem] sm:gap-[2.5rem]">
         <div className="flex flex-col text-center sm:text-start sm:flex-row gap-5 sm:gap-0 justify-between items-center sm:items-start">
           {/* Brand */}
@@ -27,12 +34,7 @@ const Footer = () => {
             <span className="text-primary font-[600] text-[0.85rem] uppercase tracking-wider">
               Navigation
             </span>
-            {[
-              { label: "Home", href: "/" },
-              { label: "Projects", href: "/my-works" },
-              { label: "About Me", href: "/about-me" },
-              { label: "Contact", href: "/?action=contact" },
-            ].map((link) => (
+            {data.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}

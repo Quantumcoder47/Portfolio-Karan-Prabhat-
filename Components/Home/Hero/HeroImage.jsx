@@ -26,7 +26,7 @@ const HeroImage = () => {
         <div className="absolute -bottom-2 -right-2 w-6 h-6 border-b-2 border-r-2 border-primary" />
 
         <Image
-          src="/Assets/heroImage.svg"
+          src="/Assets/heroImage.png"
           alt="Karan Prabhat — AI/ML Engineer"
           width={280}
           height={280}

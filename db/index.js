@@ -1,15 +1,10 @@
-import {
-  FaGithub,
-  FaLinkedin,
-  FaXTwitter,
-  FaEnvelope,
-} from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope  } from "react-icons/fa6";
 
 const navigationTab = [
   { tab: "HOME", path: "/" },
   { tab: "PROJECTS", path: "/my-works" },
   { tab: "ABOUT ME", path: "/about-me" },
-  { tab: "CONTACT", path: "/?action=contact" },
+  { tab: "CONTACT", path: "/#contact" },
   { tab: "MY CV", path: "/Assets/Karan_Prabhat_Resume.pdf" },
 ];
 
@@ -21,7 +16,8 @@ const projects = [
     des: "End-to-end ML pipeline on 211K IoT network flow records. Random Forest achieved 99.82% accuracy with only 29 missed attacks out of 29,687.",
     tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
     liveURL: "",
-    github: "https://github.com/Quantumcoder47/IoT-Network-Security-Data-Analysis-and-Classical-Machine-Learning-for-Attack-Detection",
+    github:
+      "https://github.com/Quantumcoder47/IoT-Network-Security-Data-Analysis-and-Classical-Machine-Learning-for-Attack-Detection",
     metrics: [
       { label: "Accuracy", value: "99.82%" },
       { label: "F1 Score", value: "0.9988" },
@@ -68,11 +64,27 @@ const skills = [
   },
   {
     name: "AI / ML & Deep Learning",
-    tech: ["Machine Learning", "ANN", "Deep Learning", "TensorFlow", "Keras", "Scikit-learn", "SMOTE"],
+    tech: [
+      "Machine Learning",
+      "ANN",
+      "Deep Learning",
+      "TensorFlow",
+      "Keras",
+      "Scikit-learn",
+      "SMOTE",
+    ],
   },
   {
     name: "Data Science",
-    tech: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Feature Engineering", "EDA", "Jupyter Notebook"],
+    tech: [
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Feature Engineering",
+      "EDA",
+      "Jupyter Notebook",
+    ],
   },
   {
     name: "Web Development",
@@ -80,11 +92,23 @@ const skills = [
   },
   {
     name: "Tools & Platforms",
-    tech: ["Git", "GitHub", "VS Code", "Figma", "Streamlit Cloud", "Google Colab"],
+    tech: [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Figma",
+      "Streamlit Cloud",
+      "Google Colab",
+    ],
   },
   {
     name: "Core CS",
-    tech: ["Data Structures & Algorithms", "DBMS", "Operating Systems", "Computer Networks"],
+    tech: [
+      "Data Structures & Algorithms",
+      "DBMS",
+      "Operating Systems",
+      "Computer Networks",
+    ],
   },
 ];
 
@@ -197,6 +221,11 @@ const socialLink = [
     icon: <FaLinkedin />,
     url: "https://www.linkedin.com/in/karan-prabhat-kp47/",
     name: "LinkedIn",
+  },
+  {
+    icon: <FaXTwitter  />,
+    url: "https://x.com/karanprabhat47",
+    name: "Twitter",
   },
   {
     icon: <FaEnvelope />,
