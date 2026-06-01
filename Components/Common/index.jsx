@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className="flex items-center gap-1">
       <span className="text-primary font-bold text-xl">&lt;</span>
-      <span className="text-white font-bold text-lg tracking-tight">Karan</span>
+      <span className="text-white font-bold text-lg tracking-tight capitalize font-light ">Karan prabhat</span>
       <span className="text-primary font-bold text-xl">/&gt;</span>
     </div>
   );

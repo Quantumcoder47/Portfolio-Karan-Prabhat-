@@ -13,7 +13,7 @@ export async function generateMetadata() {
         "Final Year B.Tech CSE (AI & ML) student building intelligent systems with measurable impact. Explore my story, skills, and experience.",
       images: [
         {
-          url: "/Assets/heroImage.svg",
+          url: "/Assets/heroImage.png",
           width: 500,
           height: 500,
           alt: "Karan Prabhat",

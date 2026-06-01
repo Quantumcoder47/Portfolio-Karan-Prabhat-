@@ -4,7 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaDownload, FaXTwitter } from "react-icons/fa6";
 
 const LeftContent = () => {
   const el = useRef(null);
@@ -13,7 +13,7 @@ const LeftContent = () => {
     const typed = new Typed(el.current, {
       strings: [
         `<span class="text-primary">AI/ML Engineer</span> in the making`,
-        `<span class="text-primary">Data Scientist</span> & problem solver`,
+        `<span class="text-primary">Data Scientist</span> &amp; problem solver`,
         `<span class="text-primary">Full-Stack Developer</span> with ML depth`,
         `Building <span class="text-primary">intelligent systems</span> that matter`,
       ],
@@ -24,6 +24,7 @@ const LeftContent = () => {
       smartBackspace: true,
       showCursor: true,
       cursorChar: "|",
+      contentType: "html",
     });
 
     return () => {
@@ -46,7 +47,11 @@ const LeftContent = () => {
       {/* Name */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0, transition: { duration: 0.35, delay: 0.05 } }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          transition: { duration: 0.35, delay: 0.05 },
+        }}
       >
         <h1 className="text-white font-[700] text-[2.2rem] sm:text-[2.5rem] lg:text-[3rem] leading-tight tracking-tight">
           Karan Prabhat
@@ -56,7 +61,11 @@ const LeftContent = () => {
       {/* Typed role */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0, transition: { duration: 0.35, delay: 0.1 } }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          transition: { duration: 0.35, delay: 0.1 },
+        }}
       >
         <h2 className="text-white font-[500] text-[1.1rem] sm:text-[1.3rem] lg:text-[1.5rem] min-h-[2rem]">
           <span ref={el}></span>
@@ -67,20 +76,29 @@ const LeftContent = () => {
       <motion.p
         className="description max-w-[480px]"
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0, transition: { duration: 0.35, delay: 0.15 } }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          transition: { duration: 0.35, delay: 0.15 },
+        }}
       >
-        B.Tech CSE (AI &amp; ML) student building end-to-end data science
-        pipelines and production-ready ML applications with measurable impact.
-        Targeting high-impact engineering roles at top-tier tech companies.
+        Final Year B.Tech CSE (AI &amp; ML) student building end-to-end data
+        science pipelines and production-ready ML applications with measurable
+        impact. Targeting high-impact engineering roles at top-tier tech
+        companies.
       </motion.p>
 
       {/* CTA Buttons */}
       <motion.div
         className="flex flex-row flex-wrap gap-3"
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0, transition: { duration: 0.35, delay: 0.2 } }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          transition: { duration: 0.35, delay: 0.2 },
+        }}
       >
-        <Link href="/?action=contact">
+        <Link href="/#contact">
           <PrimaryButton
             childClass="border-primary text-white bg-light_primary hover:bg-primary w-[9rem]"
             text="Hire Me"
@@ -98,7 +116,11 @@ const LeftContent = () => {
       <motion.div
         className="flex flex-row gap-4"
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0, transition: { duration: 0.35, delay: 0.25 } }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          transition: { duration: 0.35, delay: 0.25 },
+        }}
       >
         <Link
           href="https://github.com/Quantumcoder47"
@@ -115,6 +137,14 @@ const LeftContent = () => {
           className="text-gray hover:text-primary transition-all text-[1.4rem]"
         >
           <FaLinkedin />
+        </Link>
+        <Link
+          href="https://x.com/karanprabhat47"
+          target="_blank"
+          aria-label="Twitter profile"
+          className="text-gray hover:text-primary transition-all text-[1.4rem]"
+        >
+          <FaXTwitter />
         </Link>
       </motion.div>
     </div>

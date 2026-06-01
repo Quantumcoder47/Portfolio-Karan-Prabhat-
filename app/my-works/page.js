@@ -12,7 +12,7 @@ export async function generateMetadata() {
         "End-to-end ML pipelines, deep learning models, and data science applications with measurable real-world impact.",
       images: [
         {
-          url: "/Assets/heroImage.svg",
+          url: "/Assets/heroImage.png",
           width: 500,
           height: 500,
           alt: "Karan Prabhat Projects",
