@@ -21,7 +21,7 @@ const projects = [
     des: "End-to-end ML pipeline on 211K IoT network flow records. Random Forest achieved 99.82% accuracy with only 29 missed attacks out of 29,687.",
     tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
     liveURL: "",
-    github: "https://github.com/karanprabhat",
+    github: "https://github.com/Quantumcoder47/IoT-Network-Security-Data-Analysis-and-Classical-Machine-Learning-for-Attack-Detection",
     metrics: [
       { label: "Accuracy", value: "99.82%" },
       { label: "F1 Score", value: "0.9988" },
@@ -36,7 +36,7 @@ const projects = [
     des: "MLP neural network on 284,807 transactions with SMOTE oversampling. Achieved AUC-ROC of 0.97–0.99 and Recall of 0.85–0.93 on imbalanced test set.",
     tech: ["Python", "TensorFlow", "Keras", "Scikit-learn", "imbalanced-learn"],
     liveURL: "",
-    github: "https://github.com/karanprabhat",
+    github: "https://github.com/Quantumcoder47/Credit-Card-Fraud-Detection",
     metrics: [
       { label: "AUC-ROC", value: "0.97–0.99" },
       { label: "Recall", value: "0.85–0.93" },
@@ -50,8 +50,8 @@ const projects = [
     name: "Canteen Menu Optimizer",
     des: "Classification ML pipeline to predict dietary preferences. Deployed on Streamlit Cloud with 82.6% accuracy, 56.4% estimated ROI improvement, and ~30% food waste reduction.",
     tech: ["Python", "Scikit-learn", "Streamlit"],
-    liveURL: "https://streamlit.io",
-    github: "https://github.com/karanprabhat",
+    liveURL: "https://canteen-menu-optimizer.streamlit.app/",
+    github: "https://github.com/Quantumcoder47/canteen-menu-optimizer",
     metrics: [
       { label: "Accuracy", value: "82.6%" },
       { label: "ROI Improvement", value: "56.4%" },
@@ -190,12 +190,12 @@ const funFacts = [
 const socialLink = [
   {
     icon: <FaGithub />,
-    url: "https://github.com/karanprabhat",
+    url: "https://github.com/Quantumcoder47",
     name: "GitHub",
   },
   {
     icon: <FaLinkedin />,
-    url: "https://www.linkedin.com/in/karan-prabhat",
+    url: "https://www.linkedin.com/in/karan-prabhat-kp47/",
     name: "LinkedIn",
   },
   {

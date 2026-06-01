@@ -11,7 +11,8 @@ const NavigationBar = () => {
 
   return (
     <nav
-      className="bg-darker bg-opacity-90 backdrop-blur-md border-b border-gray border-opacity-20 px-[1rem] sm:px-0 py-3 md:py-4 flex flex-row justify-between items-center container"
+      className="bg-darker backdrop-blur-md px-[1rem] sm:px-0 py-3 md:py-4 flex flex-row justify-between items-center container"
+      style={{ borderBottom: "1px solid rgba(171, 178, 191, 0.2)" }}
       role="navigation"
       aria-label="Main navigation"
     >

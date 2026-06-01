@@ -10,7 +10,7 @@ export async function generateMetadata() {
     openGraph: {
       title: "About Karan Prabhat — AI/ML Engineer & Data Scientist",
       description:
-        "B.Tech CSE (AI & ML) student building intelligent systems with measurable impact. Explore my story, skills, and experience.",
+        "Final Year B.Tech CSE (AI & ML) student building intelligent systems with measurable impact. Explore my story, skills, and experience.",
       images: [
         {
           url: "/Assets/heroImage.svg",

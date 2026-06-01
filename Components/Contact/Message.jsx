@@ -19,21 +19,21 @@ const Message = () => {
         <div className="flex flex-row items-center gap-3">
           <FaLinkedin className="text-primary text-[1.2rem] flex-shrink-0" />
           <Link
-            href="https://www.linkedin.com/in/karan-prabhat"
+            href="https://www.linkedin.com/in/karan-prabhat-kp47/"
             target="_blank"
             className="description hover:text-primary transition-all text-[0.9rem]"
           >
-            linkedin.com/in/karan-prabhat
+            linkedin.com/in/karan-prabhat-kp47
           </Link>
         </div>
         <div className="flex flex-row items-center gap-3">
           <FaGithub className="text-primary text-[1.2rem] flex-shrink-0" />
           <Link
-            href="https://github.com/karanprabhat"
+            href="https://github.com/Quantumcoder47"
             target="_blank"
             className="description hover:text-primary transition-all text-[0.9rem]"
           >
-            github.com/karanprabhat
+            github.com/Quantumcoder47
           </Link>
         </div>
       </div>

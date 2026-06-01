@@ -101,7 +101,7 @@ const LeftContent = () => {
         whileInView={{ opacity: 1, y: 0, transition: { duration: 0.35, delay: 0.25 } }}
       >
         <Link
-          href="https://github.com/karanprabhat"
+          href="https://github.com/Quantumcoder47"
           target="_blank"
           aria-label="GitHub profile"
           className="text-gray hover:text-primary transition-all text-[1.4rem]"
@@ -109,7 +109,7 @@ const LeftContent = () => {
           <FaGithub />
         </Link>
         <Link
-          href="https://www.linkedin.com/in/karan-prabhat"
+          href="https://www.linkedin.com/in/karan-prabhat-kp47/"
           target="_blank"
           aria-label="LinkedIn profile"
           className="text-gray hover:text-primary transition-all text-[1.4rem]"
