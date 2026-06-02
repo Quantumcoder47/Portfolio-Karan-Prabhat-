@@ -75,7 +75,7 @@ const Footer = () => {
         <div className="flex items-center gap-1 justify-center border-t border-gray pt-4">
           <span className="text-gray text-[0.85rem]">
             <FaRegCopyright className="inline mr-1" />
-            2025 Karan Prabhat. Built with Next.js &amp; Tailwind CSS.
+            2026 Karan Prabhat • Building at the intersection of AI, Data & Technology.
           </span>
         </div>
       </div>
