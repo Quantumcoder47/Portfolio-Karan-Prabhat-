@@ -45,7 +45,7 @@ const projects = [
     thumbnail: "/Assets/canteen-project.png",
     name: "Canteen Menu Optimizer",
     des: "Classification ML pipeline to predict dietary preferences. Deployed on Streamlit Cloud with 82.6% accuracy, 56.4% estimated ROI improvement, and ~30% food waste reduction.",
-    tech: ["Python", "Scikit-learn", "Streamlit"],
+    tech: ["Python", "Scikit-learn", "Streamlit", "SMOTE", "Business Intelligence"],
     liveURL: "https://canteen-menu-optimizer.streamlit.app/",
     github: "https://github.com/Quantumcoder47/canteen-menu-optimizer",
     metrics: [

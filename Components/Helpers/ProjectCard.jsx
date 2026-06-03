@@ -55,10 +55,18 @@ const ProjectCard = ({ name, des, liveURL, github, tech, metrics, category }) =>
               />
             </Link>
           )}
-          {github && (
-            <Link href={github} target="_blank" aria-label="View source code on GitHub">
-              <button className="py-[0.5rem] px-[0.9rem] border border-gray text-gray hover:border-primary hover:text-primary transition-all duration-200 flex items-center gap-1">
+          {liveURL && github && (
+            <Link href={github} target="_blank" aria-label="View source code on GitHub" className="self-stretch flex">
+              <button className="px-[0.9rem] border border-gray text-gray hover:border-primary hover:text-primary transition-all duration-200 flex items-center gap-1 w-full">
                 <FaGithub className="text-[1rem]" />
+              </button>
+            </Link>
+          )}
+          {!liveURL && github && (
+            <Link href={github} className="flex-1" target="_blank">
+              <button className="w-full py-[0.5rem] px-[1.2rem] border border-primary text-white hover:bg-light_primary flex items-center justify-center gap-2 font-[500] transition-all duration-200">
+                <FaGithub className="text-[1rem]" />
+                <span className="leading-normal">GitHub Repository</span>
               </button>
             </Link>
           )}
