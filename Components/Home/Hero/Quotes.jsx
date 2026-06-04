@@ -26,7 +26,7 @@ const Quotes = () => {
           </span>
 
           <span className="text-[0.9rem] sm:text-[1.3rem] text-white font-[500] text-center italic">
-            In God we trust; all others must bring data.
+            The best way to predict the future is to invent it.
           </span>
 
           <span className="absolute -bottom-2 right-3 bg-darker px-1 z-10">
@@ -36,7 +36,7 @@ const Quotes = () => {
 
         <div className="w-[40%] sm:w-[30%] border border-gray p-3 sm:p-[1rem] relative flex justify-center">
           <span className="text-[0.8rem] sm:text-[1rem] text-gray font-[400]">
-            — W. Edwards Deming
+            — Alan Kay
           </span>
         </div>
       </div>
