@@ -22,11 +22,11 @@ export const metadata = {
   ],
   authors: [{ name: "Karan Prabhat" }],
   creator: "Karan Prabhat",
-  metadataBase: new URL("https://karanprabhat.dev"),
+  metadataBase: new URL("https://portfolio-karan-prabhat.vercel.app"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://karanprabhat.dev",
+    url: "https://portfolio-karan-prabhat.vercel.app",
     title: "Karan Prabhat — AI/ML Engineer & Data Scientist",
     description:
       "Aspiring AI/ML Engineer with strong foundations in machine learning, deep learning, and full-stack development. Building intelligent systems with measurable impact.",
@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={inter.variable}>
       <head>
         <meta name="theme-color" content="#C778DD" />
-        <link rel="canonical" href="https://karanprabhat.dev" />
+        <link rel="canonical" href="https://portfolio-karan-prabhat.vercel.app" />
       </head>
       <body className={inter.className}>
         <MenuProvider>{children}</MenuProvider>

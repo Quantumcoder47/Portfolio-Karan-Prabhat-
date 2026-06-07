@@ -2,7 +2,7 @@ import HomePage from "@/Components/Home";
 import PageLayout from "@/Components/Layouts/PageLayout";
 
 export const metadata = {
-  metadataBase: new URL("https://karanprabhat.dev"),
+  metadataBase: new URL("https://portfolio-karan-prabhat.vercel.app"),
   title: "Karan Prabhat — AI/ML Engineer, Data Scientist & Full-Stack Developer",
   description:
     "Welcome to Karan Prabhat's portfolio. Aspiring AI/ML Engineer and Data Scientist with proven projects in fraud detection, IoT security, and ML-powered applications.",
@@ -10,7 +10,7 @@ export const metadata = {
     title: "Karan Prabhat — AI/ML Engineer & Data Scientist",
     description:
       "Aspiring AI/ML Engineer with strong foundations in machine learning, deep learning, and full-stack development. Explore my projects and achievements.",
-    url: "https://karanprabhat.dev",
+    url: "https://portfolio-karan-prabhat.vercel.app",
     images: [
       {
         url: "/Assets/hero.png",
