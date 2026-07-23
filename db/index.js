@@ -141,6 +141,19 @@ const experience = [
       "Contributed to agile sprint execution in a cross-functional team.",
     ],
   },
+  {
+    id: "EXP3",
+    role: "Generative AI Annotator",
+    type: "Remote Internship",
+    company: "RT Networks Pvt. Ltd.",
+    location: "Remote",
+    duration: "January 2026 – April 2026",
+    points: [
+      "Annotated and validated Generative AI outputs to improve model quality, accuracy, and response consistency.",
+      "Evaluated AI-generated content for correctness, relevance, safety, and alignment with project guidelines.",
+      "Collaborated with cross-functional teams while following structured annotation workflows and maintaining high-quality standards.",
+    ],
+  },
 ];
 
 const certifications = [
@@ -150,6 +163,7 @@ const certifications = [
     issuer: "Google Cloud",
     year: "2024",
     icon: "🤖",
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/KUJEB29Q5L1P",
   },
   {
     id: "CERT2",
@@ -157,6 +171,7 @@ const certifications = [
     issuer: "Coursera",
     year: "2024",
     icon: "🧠",
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/DLHZGJL2F9XZ",
   },
   {
     id: "CERT3",
@@ -164,6 +179,7 @@ const certifications = [
     issuer: "Coursera",
     year: "2025",
     icon: "💡",
+    credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/ACJHZFGIAGZS",
   },
   {
     id: "CERT4",
@@ -171,6 +187,7 @@ const certifications = [
     issuer: "Pantech Solutions",
     year: "2024",
     icon: "🌐",
+    credentialUrl: "https://drive.google.com/file/d/1mlFQyjZ6IZrqcRDD5k-hThneIsuLozjy/view",
   },
   {
     id: "CERT5",
@@ -178,6 +195,15 @@ const certifications = [
     issuer: "Employability.life & Federation University Australia",
     year: "2026",
     icon: "🏆",
+    credentialUrl: "https://drive.google.com/file/d/1RLIn9uk_HY1wVNiH_k6c1V4Rs1mV1SsM/view",
+  },
+  {
+    id: "CERT6",
+    name: "Generative AI Annotator",
+    issuer: "RT Networks Pvt. Ltd.",
+    year: "2026",
+    icon: "✨",
+    credentialUrl: "https://drive.google.com/file/d/1wQLpE7umlNBzI97VZYPcKpzz13QVkeVE/view",
   },
 ];
 
