@@ -205,6 +205,14 @@ const certifications = [
     icon: "✨",
     credentialUrl: "https://drive.google.com/file/d/1wQLpE7umlNBzI97VZYPcKpzz13QVkeVE/view",
   },
+  {
+    id: "CERT7",
+    name: "Bharatiya Antariksh Hackathon 2026 — Certificate of Participation",
+    issuer: "Indian Space Research Organisation (ISRO) / Hack2Skill",
+    year: "2026",
+    icon: "🚀",
+    credentialUrl: "https://certificate.hack2skill.com/claim/91e4aa8b05f53d7b79fc384811d3560df4285a128760a3d33fd3c76f6a6a880f",
+  },
 ];
 
 const achievements = [
